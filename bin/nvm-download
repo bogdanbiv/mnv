@@ -29,7 +29,7 @@ var CONFIG = path.join(HOME, '.nvmrc');
 
 var opts = {
     method: 'HEAD',
-    host: '127.0.0.1',
+    host: 'nodejs.org',
     port: 80,
     path: util.format('http://nodejs.org/dist/v%s/node-v%s.tar.gz', VERSION, VERSION)
 };
