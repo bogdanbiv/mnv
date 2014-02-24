@@ -15,7 +15,7 @@ if (!HOME) {
   console.error('There must be a `HOME` set in your environment');
   process.exit(0);
 }
-var DIRECTORY = path.join(HOME, '.localnode', util.format('node-v%s', VERSION));
+var DIRECTORY = path.join(HOME, '.nvm', util.format('node-v%s', VERSION));
 if (!fs.existsSync(DIRECTORY)) {
   console.error('%s doesn\'t exist, (need to downloaded first?)', DIRECTORY, VERSION);
   process.exit(1);
