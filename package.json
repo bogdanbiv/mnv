@@ -1,6 +1,6 @@
 {
   "name": "nvm",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Install and managing different versions of node and installing local versions into repos.",
   "dependencies": {
     "mkdirp": "~0.3.3"
