@@ -1,0 +1,12 @@
+#! /usr/bin/env node
+var clc = require('cli-color');
+
+console.log('Node Version Manager from https://github.com/brianloveswords/nvm\n');
+
+console.log('Usage: ');
+console.log(clc.black.bgWhite('nvm download') + ' - Downloads from http://nodejs.org/dist/ and unpacks to ~/.nvm.');
+console.log(clc.black.bgWhite('nvm build') + ' - Build a version of node.');
+console.log(clc.black.bgWhite('nvm link') + ' - Link a version of node to the current app/library.');
+console.log(clc.black.bgWhite('nvm unlink') + ' - Unlink a version of node to the current app/library.'); 
+console.log(clc.black.bgWhite('nvm install') + ' - Globally install a specific version of node.');
+
