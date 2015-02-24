@@ -1,6 +1,6 @@
 {
   "name": "simplenvm",
-  "version": "0.0.5",
+  "version": "0.0.7",
   "description": "Install and managing different versions of node and installing local versions into repos.",
   "dependencies": {
     "cli-color": "^0.3.2",
@@ -15,12 +15,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/brianloveswords/nvm.git"
+    "url": "git://github.com/bogdanbiv/nvm.git"
   },
   "keywords": [
     "local",
-    "node"
+    "node",
+    "iojs"
   ],
-  "author": "Brian J. Brennan (@brianloveswords)",
+  "author": "Bogdan Bivolaru (@bogdanbiv)",
   "license": "http://wtfpl.org/"
 }
