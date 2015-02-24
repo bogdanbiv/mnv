@@ -1,0 +1,13 @@
+#! /usr/bin/env node
+var clc = require('cli-color');
+
+console.log('Node/io.js Version Manager from https://github.com/brianloveswords/snvm\n');
+
+console.log('Usage: ');
+console.log(clc.black.bgWhite('snvm download <version> <project>') +
+    ' - Downloads from nodejs.org/dist/ iojs.org/dist/ and unpacks to ~/.snvm/.');
+console.log(clc.black.bgWhite('snvm build') + ' - Build a version of node.');
+console.log(clc.black.bgWhite('snvm link') + ' - Link a version of node to the current app/library.');
+console.log(clc.black.bgWhite('snvm unlink') + ' - Unlink a version of node to the current app/library.');
+console.log(clc.black.bgWhite('snvm install') + ' - Globally install a specific version of node.');
+
