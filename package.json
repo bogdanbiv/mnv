@@ -1,6 +1,6 @@
 {
-  "name": "nvm",
-  "version": "0.0.3",
+  "name": "simplenvm",
+  "version": "0.0.5",
   "description": "Install and managing different versions of node and installing local versions into repos.",
   "dependencies": {
     "cli-color": "^0.3.2",
@@ -8,7 +8,7 @@
   },
   "devDependencies": {},
   "bin": {
-    "nvm": "./bin/nvm"
+    "snvm": "./bin/snvm"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
